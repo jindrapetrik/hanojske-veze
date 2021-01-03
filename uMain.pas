@@ -550,7 +550,6 @@ end;                                                                            
                      OOOOOOOOO   OOO
                         JPEXS 2003
 
-JPEXS says: Prosím, nepøivlastòujte si tento program!
 }
 end.
 

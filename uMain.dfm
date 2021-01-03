@@ -1,8 +1,7 @@
 object frmMain: TfrmMain
   Left = 196
   Top = 98
-  AutoScroll = False
-  Caption = 'Hanojské Vìže'
+  Caption = 'Hanojsk'#233' V'#283#382'e'
   ClientHeight = 429
   ClientWidth = 504
   Color = clBtnFace
@@ -62,8 +61,8 @@ object frmMain: TfrmMain
     Width = 370
     Height = 13
     Caption = 
-      'Ovládání: Pravé tlaèítko - Výbìr vìže     Levé tlaèítko - Pøesun' +
-      ' na cílovou vìž'
+      'Ovl'#225'd'#225'n'#237': Prav'#233' tla'#269#237'tko - V'#253'b'#283'r v'#283#382'e     Lev'#233' tla'#269#237'tko - P'#345'esun' +
+      ' na c'#237'lovou v'#283#382
   end
   object lblJPEXS: TLabel
     Left = 200
@@ -84,7 +83,7 @@ object frmMain: TfrmMain
     Top = 5
     Width = 236
     Height = 111
-    Caption = 'Automatické vyøešení'
+    Caption = 'Automatick'#233' vy'#345'e'#353'en'#237
     TabOrder = 0
     object pnlCilovaPozice: TPanel
       Left = 5
@@ -97,7 +96,7 @@ object frmMain: TfrmMain
         Top = 15
         Width = 68
         Height = 13
-        Caption = 'Cílová Pozice:'
+        Caption = 'C'#237'lov'#225' Pozice:'
       end
       object rdbAutomPozice1: TRadioButton
         Tag = 1
@@ -134,7 +133,7 @@ object frmMain: TfrmMain
         Top = 15
         Width = 81
         Height = 31
-        Caption = 'Vyøešit'
+        Caption = 'Vy'#345'e'#353'it'
         TabOrder = 3
         OnClick = btnVyresitClick
       end
@@ -145,14 +144,14 @@ object frmMain: TfrmMain
     Top = 5
     Width = 166
     Height = 111
-    Caption = 'Nové Vìže'
+    Caption = 'Nov'#233' V'#283#382'e'
     TabOrder = 1
     object lblVyska: TLabel
       Left = 15
       Top = 25
       Width = 32
       Height = 13
-      Caption = 'Výška:'
+      Caption = 'V'#253#353'ka:'
     end
     object lblPozice: TLabel
       Left = 60
@@ -193,14 +192,13 @@ object frmMain: TfrmMain
       Min = 1
       Position = 5
       TabOrder = 1
-      Wrap = False
     end
     object edtVyskaVezi: TEdit
       Left = 55
       Top = 20
       Width = 31
       Height = 21
-      Hint = 'Výška celé vìže (poèet pater)'
+      Hint = 'V'#253#353'ka cel'#233' v'#283#382'e (po'#269'et pater)'
       ParentShowHint = False
       ShowHint = True
       TabOrder = 2
@@ -249,14 +247,13 @@ object frmMain: TfrmMain
       Increment = 2
       Position = 20
       TabOrder = 6
-      Wrap = False
     end
     object edtVelikost: TEdit
       Left = 55
       Top = 45
       Width = 31
       Height = 21
-      Hint = 'Velikost 1 patra vìžì v pixelech'
+      Hint = 'Velikost 1 patra v'#283#382#283' v pixelech'
       ParentShowHint = False
       ShowHint = True
       TabOrder = 7
@@ -282,7 +279,7 @@ object frmMain: TfrmMain
       Top = 0
       Width = 74
       Height = 13
-      Caption = 'Minimální doba:'
+      Caption = 'Minim'#225'ln'#237' doba:'
       Transparent = True
     end
     object lblDoba: TLabel
@@ -299,7 +296,7 @@ object frmMain: TfrmMain
       Top = 5
       Width = 41
       Height = 21
-      Hint = 'Rychlost animace vyøešení v milisekundách'
+      Hint = 'Rychlost animace vy'#345'e'#353'en'#237' v milisekund'#225'ch'
       ParentShowHint = False
       ShowHint = True
       TabOrder = 0
@@ -318,7 +315,6 @@ object frmMain: TfrmMain
       Position = 100
       TabOrder = 1
       Thousands = False
-      Wrap = False
     end
   end
   object grbBarvy: TGroupBox
@@ -333,21 +329,21 @@ object frmMain: TfrmMain
       Top = 25
       Width = 21
       Height = 13
-      Caption = 'Vìž:'
+      Caption = 'V'#283#382':'
     end
     object lblBarVyber: TLabel
       Left = 10
       Top = 55
       Width = 30
       Height = 13
-      Caption = 'Výbìr:'
+      Caption = 'V'#253'b'#283'r:'
     end
     object lblBarTyc: TLabel
       Left = 10
       Top = 85
       Width = 21
       Height = 13
-      Caption = 'Tyè:'
+      Caption = 'Ty'#269':'
     end
     object pnlBarvaVez: TPanel
       Left = 45
@@ -384,7 +380,6 @@ object frmMain: TfrmMain
     end
   end
   object dlgColor: TColorDialog
-    Ctl3D = True
     Left = 475
     Top = 120
   end
